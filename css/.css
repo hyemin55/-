@@ -1,0 +1,14 @@
+li{
+  list-style-type: none;
+}
+/* ul의 목록기호 없앨 때 사용했음. */
+a{
+  text-decoration: none;
+}
+/* like 밑줄 없앨 때 사용했음. */
+input{
+  border: none;
+}
+form{
+  image-rendering: auto alt="이미지" style="border" 1px solid gray;"
+}

@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    h1{
+    ul {
       display: inline-block;
     }
+    li{
+      display: inline-block;
+      width: 70px;
+    }
+
   </style>
+  <link rel="stylesheet" href="../css/stlye.css" />
 </head>
+
 <body>
   <header>
-  <h1><img src="../image/logo.png" alt="logo">마켓컬리</h1>
-  <h1>뷰티컬리</h1>
-</header>
+    <div id="loge">
+      <a href="https://www.kurly.com/"><img src="../image/logo.png" alt="컬리"></a>
+    </div>
+    <nav>
+      <ul id="topmenu">
+        <li><a href="https://www.kurly.com/main">마켓컬리</a></li>
+        <li><a href="https://www.kurly.com/main/beauty">뷰티컬리</a></li>
+        <form action="https://www.kurly.com/search" method="get">
+          <input type="search" name="q" placeholder="검색어를 입력해주세요">
+          <button type="submit"><img src="../image/돋보기.PNG" alt="돋보기"></button>
+        </form>
+      </ul>
+    </nav>
+  </header>
+
 </body>
+
 </html>
