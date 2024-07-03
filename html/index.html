@@ -9,11 +9,17 @@
     ul {
       display: inline-block;
     }
-    li{
+
+    li {
       display: inline-block;
       width: 70px;
     }
 
+    .a {
+      border-radius: 50px;
+      /* background-color: rgba(0, 0, 0, 1); */
+      background-color: transparent;
+    }
   </style>
   <link rel="stylesheet" href="../css/stlye.css" />
 </head>
@@ -23,17 +29,29 @@
     <div id="loge">
       <a href="https://www.kurly.com/"><img src="../image/logo.png" alt="컬리"></a>
     </div>
+    <ul id="topmenu">
+      <li><a href="https://www.kurly.com/main">마켓컬리</a></li>
+      <li><a href="https://www.kurly.com/main/beauty">뷰티컬리</a></li>
+      <form action="https://www.kurly.com/search" method="get">
+        <input type="search" name="q" placeholder="검색어를 입력해주세요">
+        <button type="submit"><img src="../image/돋보기.PNG" alt="돋보기"></button>
+      </form>
+    </ul>
     <nav>
-      <ul id="topmenu">
-        <li><a href="https://www.kurly.com/main">마켓컬리</a></li>
-        <li><a href="https://www.kurly.com/main/beauty">뷰티컬리</a></li>
-        <form action="https://www.kurly.com/search" method="get">
-          <input type="search" name="q" placeholder="검색어를 입력해주세요">
-          <button type="submit"><img src="../image/돋보기.PNG" alt="돋보기"></button>
-        </form>
+      <ul id="menu">
+        <li><a href="#">카테고리</a></li>
+        <li><a href="#">신상품</a></li>
+        <li><a href="#">베스트</a></li>
+        <li><a href="#">알뜰쇼핑</a></li>
+        <li><a href="#">특가/혜택</a></li>
+        <div>
+          <button class="a" onclick="https://www.kurly.com/user-guide/delivery">샛별하루 배송안내</button>
+        </div>
       </ul>
+
     </nav>
   </header>
+
 
 </body>
 
